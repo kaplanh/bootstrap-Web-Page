@@ -61,6 +61,11 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="#instructors"
+                                >instructors</a
+                            >
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#student">Student</a>
                         </li>
                         <li class="nav-item">
@@ -75,14 +80,351 @@
         </nav>
 
         <!-- ***** CAROUSEL ****** -->
+        <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img
+                        src="./img/slider1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Popular Education</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            first slide.
+                        </p>
+                        <div>
+                            <button class="btn btn-danger">Start Now</button>
+                            <button class="btn btn-warning">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                        src="./img/slider2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Succesfull Future</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            second slide.
+                        </p>
+                        <div>
+                            <button class="btn btn-danger">Start Now</button>
+                            <button class="btn btn-warning">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                        src="./img/slider3.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Dream Job</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            third slide.
+                        </p>
+                        <div>
+                            <button class="btn btn-danger">Start Now</button>
+                            <button class="btn btn-warning">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
         <!-- ***** ABOUT ***** -->
-
-        <!-- ****** INSTRUCTORS *******-->
-
-        <!-- ****** STUDENTS *******-->
-
-        <!-- ****** COURSES *******-->
+        <main class="container text-center">
+            <section id="about" class="container bg-light p-3">
+                <h2 class="text-danger display-6">ABOUT US</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-3">
+                        <!--? icon büyüklüğünü fa-x özelliği ile ayarlayabiliriz  -->
+                        <i class="fas fa-globe-americas fa-2x"></i>
+                        <h4>Online Courses</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut ipsa atque enim quos adipisci delectus?
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <i class="fas fa-headset fa-2x"></i>
+                        <h4>Fulltime Mentoring</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut ipsa atque enim quos adipisci delectus?
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <i class="fas fa-book-open fa-2x"></i>
+                        <h4>Learn Yourself</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut ipsa atque enim quos adipisci delectus?
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- ****** INSTRUCTORS *******-->
+            <section id="instructors" class="container bg-dark p-3">
+                <h2 class="text-danger display-6">OUR INSTRUCTORS</h2>
+                <div class="row g-3 justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher1.jpg"
+                                class="card-img-top"
+                                alt="t1"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Josh Ren</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher2.jpg"
+                                class="card-img-top"
+                                alt="t2"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Bob Ken</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher3.jpg"
+                                class="card-img-top"
+                                alt="t3"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Jessica Sunny</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher4.jpg"
+                                class="card-img-top"
+                                alt="t4"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Jonny Came</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher5.jpg"
+                                class="card-img-top"
+                                alt="t5"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Osho</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card h-100">
+                            <img
+                                src="./img/teacher6.jpg"
+                                class="card-img-top"
+                                alt="t6"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Brandon White</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <div
+                                    class="text-danger d-flex fa-2x justify-content-around"
+                                >
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                    <i
+                                        class="fa-brands fa-instagram-square"
+                                    ></i>
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                    <i
+                                        class="fa-brands fa-google-plus-square"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ****** STUDENTS *******-->
+            <section id="students" class="container bg-light p-3">
+                <h2 class="text-danger display-6">OUR STUDENTS</h2>
+                <div class="row flex-wrap-reverse align-items-center">
+                    <div class="col-md-6">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vero hic sit, voluptate illum distinctio
+                            sapiente saepe impedit beatae, nihil harum
+                            architecto quas dolore ut labore sed non quam
+                        </p>
+                        <button class="btn btn-danger">Learn More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img
+                            src="./img/students1.png"
+                            width="70%"
+                            alt="students"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- ****** COURSES *******-->
+        </main>
 
         <!-- ****** CONTACT *******-->
 
