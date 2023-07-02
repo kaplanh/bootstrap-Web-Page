@@ -68,6 +68,12 @@ section#instructors i:hover {
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
 /*! ----------- 5- COURSES SECTION ----------- */
+.nav-pills .nav-link{
+    color: white;
+}
+.nav-pills .nav-link.active{
+    background-color: var(--red);
+}
 
 /*! ----------- 6- CONTACT SECTION ------------ */
 
